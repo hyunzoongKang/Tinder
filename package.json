@@ -2,7 +2,10 @@
   "name": "react-boilerplate",
   "version": "3.0.0",
   "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
-  "repository": "git://github.com/mxstbr/react-boilerplate.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mxstbr/react-boilerplate.git"
+  },
   "engines": {
     "npm": ">=3"
   },
@@ -268,7 +271,7 @@
     "lodash": "4.15.0",
     "minimist": "1.2.0",
     "mocha": "2.5.3",
-    "ngrok": "2.2.2",
+    "ngrok": "3.3.0",
     "null-loader": "0.1.1",
     "offline-plugin": "3.4.2",
     "plop": "1.5.0",
@@ -290,5 +293,9 @@
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.12.2"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/mxstbr/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mxstbr/react-boilerplate#readme"
 }
